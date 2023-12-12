@@ -1,6 +1,6 @@
-import React, { Children } from 'react'
+import React, { } from 'react'
 // import Animate from "../PAGES/Animate"
-import {motion} from "framer-motion"
+// import {motion} from "framer-motion"
 
 function Signup() {
   // const contain = {
