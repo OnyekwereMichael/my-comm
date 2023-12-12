@@ -17,8 +17,6 @@ function Scheme() {
   return (
    <div>
     Scheme
-    <p>hchch</p>
-
    </div>
    
   )
