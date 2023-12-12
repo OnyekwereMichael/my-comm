@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import navbar from "../components/navbar"
-import footer from "../components/footer"
+// import navbar from "../components/navbar"
+// import footer from "../components/footer"
 import picone from "../ASSESTS/picone.png"
 import pictwo from "../ASSESTS/pictwo.png"
 import picthree from "../ASSESTS/picthree.png"
