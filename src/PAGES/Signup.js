@@ -17,7 +17,7 @@ function Signup() {
   return (
    <section>
     <h4>Create an Account</h4>
-    <p>Sign up</p>
+    {/* <p>Sign up</p> */}
    </section>
  
   )
