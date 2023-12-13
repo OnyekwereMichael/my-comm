@@ -1,4 +1,3 @@
-import { useState } from 'react';
 // import navbar from "../components/navbar"
 // import footer from "../components/footer"
 import picone from "../ASSESTS/picone.png"
@@ -11,10 +10,10 @@ import imgtwo from "../ASSESTS/imgtwo.png";
 import imgthree from "../ASSESTS/imgthree.png";
 import imgfive from "../ASSESTS/img.png";
 import imgsix from "../ASSESTS/pick.png";
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 
-function Header() {
+function Home() {
   const data = [
     {
       img: picone,
@@ -80,10 +79,10 @@ function Header() {
       feat: "featured",
     },
   ]
-  const [Slide, setSlide] = useState(true)
-  setTimeout(() => {
-  setSlide(false)
-  }, 4000)
+  // const [Slide, setSlide] = useState(true)
+  // setTimeout(() => {
+  // setSlide(false)
+  // }, 4000)
 
 
   const loadout = {
@@ -322,4 +321,4 @@ function Header() {
  
 }
 
-export default Header;
+export default Home;
